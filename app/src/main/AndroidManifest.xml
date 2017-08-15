@@ -19,6 +19,10 @@
 
         <activity android:name=".Music" />
 
+    <activity android:name=".About" />
+        <activity android:name=".payment" />
+
+
     </application>
 
 </manifest>
