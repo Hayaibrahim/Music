@@ -27,7 +27,7 @@ import android.widget.Toast;
 import com.paypal.android.sdk.payments.PayPalConfiguration;
 import com.paypal.android.sdk.payments.PayPalService;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity   {
     private Button buttonPay;
     private EditText editTextAmount;
 
@@ -64,7 +64,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
-    @Override
-    public void onClick(View v) {
-    }
+
 }
