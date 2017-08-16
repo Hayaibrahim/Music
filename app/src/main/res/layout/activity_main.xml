@@ -19,13 +19,9 @@
         android:gravity="center"
         android:textSize="30sp"
         android:textColor="#4791b6"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycle"
-        android:layout_width="match_parent"
-        android:layout_height="205dp"
-     />
 
     <Button
         android:id="@+id/music"
@@ -36,12 +32,7 @@
         android:padding="20dp"
         android:layout_gravity="fill_vertical"/>
 
-    <Button
-        android:id="@+id/youtube"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="youtube"
-        android:background="#ecc7dc"/>
+
 
 
     <Button
