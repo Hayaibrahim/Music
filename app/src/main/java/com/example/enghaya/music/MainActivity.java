@@ -28,17 +28,17 @@ import com.paypal.android.sdk.payments.PayPalConfiguration;
 import com.paypal.android.sdk.payments.PayPalService;
 
 public class MainActivity extends AppCompatActivity   {
-    private Button buttonPay;
-    private EditText editTextAmount;
-
+     Button Pay;
+      EditText  Amount;
     //Payment Amount
-    private String paymentAmount;
+      String paymentAmount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        buttonPay = (Button) findViewById(R.id.buttonPay);
-        editTextAmount = (EditText) findViewById(R.id.editTextAmount);
+          Pay = (Button) findViewById(R.id. Pay);
+          Amount = (EditText) findViewById(R.id.Amount);
+
         Button music = (Button) findViewById(R.id.music);
         music.setOnClickListener(new View.OnClickListener() {
             @Override
